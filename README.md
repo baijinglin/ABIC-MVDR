@@ -61,4 +61,16 @@ ATT-MVDR was reproduced as the baseline by us, with parameters aligned to origin
 ## Acknowledgment
 This research was supported by the China National Nature Science Foundation (No. 61876214). This work was also supported by the Open Fund (KF-2022-07-009) of Key Laboratory of Urban Land Resources Monitoring and Simulation, Ministry of Natural Resources, China.
 
+### Citation
+Please cite the following paper if you use this work in your research:
+```bibtex
+@inproceedings{bai2025attention,
+  author    = {J. Bai and H. Li and X. Zhang and F. Chen},
+  title     = {Attention-Based Beamformer For Multi-Channel Speech Enhancement},
+  booktitle = {ICASSP 2025 - IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year      = {2025},
+  pages     = {1--5},
+  doi       = {10.1109/ICASSP49660.2025.10890720},
+  address   = {Hyderabad, India}
+}
 
