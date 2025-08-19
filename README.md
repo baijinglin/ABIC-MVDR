@@ -1,6 +1,6 @@
 
 # Attention-Based Beamformer For Multi-Channel Speech Enhancement
-📄 **[Official Paper on IEEE Xplore](https://ieeexplore.ieee.org/iel8/10887540/10887541/10890720.pdf)**
+📄 **[Official Paper on IEEE Xplore](https://ieeexplore.ieee.org/document/10890720)**
 
 ## Abstract
 Minimum Variance Distortionless Response (MVDR) is a classical adaptive beamformer that theoretically ensures the distortionless transmission of signals in the target direction, which makes it popular in real applications. Its noise reduction performance actually depends on the accuracy of the noise and speech spatial covariance matrices (SCMs) estimation. Time-frequency masks are often used to compute these SCMs. However, most mask-based beamforming methods typically assume that the sources are stationary, ignoring the case of
