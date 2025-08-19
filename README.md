@@ -61,7 +61,7 @@ ATT-MVDR was reproduced as the baseline by us, with parameters aligned to origin
 ## Acknowledgment
 This research was supported by the China National Nature Science Foundation (No. 61876214). This work was also supported by the Open Fund (KF-2022-07-009) of Key Laboratory of Urban Land Resources Monitoring and Simulation, Ministry of Natural Resources, China.
 
-### Citation
+## Citation
 Please cite the following paper if you use this work in your research:
 ```bibtex
 @inproceedings{bai2025attention,
