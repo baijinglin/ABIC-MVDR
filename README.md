@@ -61,18 +61,4 @@ ATT-MVDR was reproduced as the baseline by us, with parameters aligned to origin
 ## Acknowledgment
 This research was supported by the China National Nature Science Foundation (No. 61876214). This work was also supported by the Open Fund (KF-2022-07-009) of Key Laboratory of Urban Land Resources Monitoring and Simulation, Ministry of Natural Resources, China.
 
- ## Citation
-If you use ABIC-MVDR in your research or project, please cite the following paper:
-```bash
-@ARTICLE{10017367,
-  author={Ochiai, Tsubasa and Delcroix, Marc and Nakatani, Tomohiro and Araki, Shoko},
-  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing}, 
-  title={Mask-Based Neural Beamforming for Moving Speakers With Self-Attention-Based Tracking}, 
-  year={2023},
-  volume={31},
-  number={},
-  pages={835-848},
-  keywords={Array signal processing;Time-frequency analysis;Artificial neural networks;Microphone arrays;Filtering theory;Speech enhancement;Estimation;Array processing;mask-based neural beamformer;moving source;self-attention network;time-varying filter},
-  doi={10.1109/TASLP.2023.3237172}}
-```
 
