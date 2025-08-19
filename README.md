@@ -22,7 +22,7 @@ Minimum Variance Distortionless Response (MVDR) is a classical adaptive beamform
 
  ## Usage
 
-To train our proposed model, run the following command:
+ABIC-MVDR (our proposed model):
 
 ```bash
 python ICRN_mask_mvdr.py
