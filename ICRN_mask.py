@@ -166,8 +166,6 @@ def main():
 
     # 将输入传递给模型并获取输出
     outputs = model(inputs)
-    #打印输出以进行调试
-    print("输出形状:", outputs.shape)
     from ptflops import get_model_complexity_info
     with torch.no_grad():
         # 获取模型的计算复杂度信息
@@ -183,15 +181,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-# def complexity():
-#     from thop import profile, clever_format
-#     inputs = torch.randn(1,4,100,161).cuda()
-#     model = ICRN(4).cuda()
-#     total_ops, total_params = profile(model, inputs=(inputs,), verbose=False)
-#     flops, params = clever_format([total_ops, total_params], "%.3f ")
-#     print(flops, params)
-#     # mac, param = thop.profile(model, inputs=(inputs,))
-#     # print('mac:',mac/(2**30),' param', param/(2**20))
 
-# if __name__ == '__main__':
-#     complexity()
