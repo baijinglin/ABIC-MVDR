@@ -2,7 +2,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from stft_istft_real_imag import STFT
 import torch
-from config import *
 import math
 import pdb
 
@@ -183,7 +182,7 @@ class NET_Wrapper(nn.Module):
         [batch_size, _, channel] = inputs.shape
         mix_data = inputs.permute([0, 2, 1]).reshape(batch_size * channel, -1)
         mix_spec = self.STFT.transform(mix_data)
-        mix_spec = mix_spec.reshape(batch_size, channel, -1, FFT_SIZE, 2)
+        mix_spec = mix_spec.reshape(batch_size, channel, -1, 161, 2)
         input_data = torch.cat([mix_spec[..., 0], mix_spec[..., 1]], 1)
         e1 = self.conv1_relu(self.conv1_bn(self.conv1(self.pad(input_data))))
         e2 = self.conv2_relu(self.conv2_bn(self.conv2(self.pad(e1))))
@@ -353,4 +352,5 @@ def complexity():
 
 if __name__ == '__main__':
     complexity()
+
 
